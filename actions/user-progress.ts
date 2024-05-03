@@ -14,6 +14,8 @@ export const upsertUserprogress = async () => {
         throw new Error("Unauthorized");
     }
 
+    console.log("kuy");
+
     const existingUserProgress = await getUserProgress();
     if (existingUserProgress) {
         await db.update(userProgress).set({

@@ -13,6 +13,7 @@ export const LinkToAddTask = () => {
 
     useEffect(() => {
         setIsMounted(true);
+        console.log("yedtamon");
         upsertUserprogress();
     }, []);
 

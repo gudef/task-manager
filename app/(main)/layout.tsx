@@ -10,10 +10,10 @@ type Props = {
 
 const TaskLayout = async({children}: Props) => {
 
-   const userProgress = await getUserProgress();
-    if (!userProgress) {
-        redirect("/");
-    }
+//    const userProgress = await getUserProgress();
+//     if (!userProgress) {
+//         redirect("/");
+//     }
 
   return (
     <div className="h-screen w-full flex flex-col lg:flex-row">
